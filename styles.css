@@ -74,26 +74,12 @@ img{
 
 /* ..........................................GRID .................................... */
 
-/* .row1{
-    display: grid;
-    grid-template-columns: 70% 30%;
-    /* grid-column-gap: 1em; */
-  
-/* }
-.orange-box{
-    background-color: #EC5020;
-    width: 100px;
-    height: 100px;
-
+.grid-ctn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-
-.yellow-box{
-    background-color: #FFA400;
-    width: 100px;
-    height: 100px;
-
-} */ */
-
 .row1 {
     width: 60%;
     display: grid;
@@ -115,13 +101,13 @@ img{
 
 .orange-box {
     background-color: rgb(235, 80, 32);
-    grid-column: span 3;
+    grid-column: span 2;
     grid-row: span 3;
 }
 
 .yellow-box {
     background-color: rgb(255, 164, 1);
-    grid-column: span 2;
+    grid-column: span 1;
     grid-row: span 3;
 }
 
